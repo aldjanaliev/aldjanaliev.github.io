@@ -1,0 +1,134 @@
+@media screen and (max-width: 1000px) {
+	
+	header{
+		height: 463px;
+	}
+	.black-block{
+		background: #fff;
+	}
+	.menu i,
+	.menu i::before,
+	.menu i::after{
+		background: #000;
+	}
+	.white-block,
+	.black-block{
+		width: 50%;
+	}
+	.menu{
+		width: 50px;
+	}
+	.lang{
+		color: #000;
+	}
+	nav li a{
+		background: rgba(16,16,16,0.9);
+	}
+	nav li a:hover{
+		background: rgba(255,255,255,0.9);
+	}
+	.head-txt h3{
+		font-size: 20px;
+	}
+	.head-txt h3::before, .head-txt h3::after{
+		width: 144px;
+	}
+	.head-txt h3::before{
+		margin-left: -195px;
+	}
+	.head-txt h3::after{
+		margin-left: 50px;
+	}
+	.head-txt h1{
+		font-size: 46px;
+	}
+	.head-txt{
+		margin-top: 70px;
+	}
+	.head-txt .arrows{
+	    margin: 35px auto 0;
+	}
+	.statistic .container{
+		display: block;
+	}
+	.stat-items{
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	.skills-top, .portfolio-top, .brands-top{
+		padding: 20px 18px;
+		margin-bottom: 0;
+		height: 200px;
+	}
+	.top-inner{
+		padding-top: 20px;
+	}
+	.skill-img{
+		height: 220px;
+		width: 100%;
+		float: right;
+	}
+	.skill-img::before{
+		top: 0px;
+		left: 15px;
+		padding: 98px 208px;
+		border: 3px solid #fff;
+		border-top: none;
+	}
+	.skill-img::after{
+		top: 16px;
+		left: 50%;
+		margin-left: -16px;
+		border-width: 20px 16px 0 16px;
+		border-color: #fff  transparent  transparent transparent;
+	}
+	.skill-txt{
+		padding-top: 40px;
+		width: 100%;
+		float: right;
+		height: 220px;
+		overflow: hidden;
+	}
+	.skill-txt h4{
+		font-size: 30px;
+		line-height: 30px;
+	}
+	.skill-txt::before{
+		top: 15px;
+		left: 15px;
+		width: 0;
+		height: 0;
+		padding: 101px 208px;
+		border: 3px solid #000;
+		border-bottom: none;
+	}
+	.skill:nth-child(2n) .skill-img,
+	.skill:nth-child(2n) .skill-txt{
+		float: right;
+	}
+	.skill:nth-child(2n) .skill-txt::before{
+		border: 3px solid #000;
+		border-bottom: none;
+		left: 15px;
+	}
+	.skill:nth-child(2n) .skill-img{
+		transform: none;
+	}
+	.port-wrap{
+		padding: 0;
+	}
+	.port-inner{
+		width: 100%;
+	}
+	.port-in{
+		padding: 5px;
+	}
+	.footer-wrap{
+		display: block;
+	}
+	.footer-inner{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+}
